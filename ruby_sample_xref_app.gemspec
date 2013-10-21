@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.description = "A sample Ruby app for use with Sourcegraph"
   s.authors     = ["Quinn Slack"]
   s.email       = 'sqs@sourcegraph.com'
-  s.files       = ["app/use_tire.rb", "app/use_yajl.rb", "app/use_stripe.rb", "app/use_groupdate.rb", "app/use_redis.rb", "app/use_searchkick.rb", "app/use_geocoder.rb", "app/use_barkick.rb"]
+  s.files       = ["lib/use_tire.rb", "lib/use_yajl.rb", "lib/use_stripe.rb", "lib/use_groupdate.rb", "lib/use_redis.rb", "lib/use_searchkick.rb", "lib/use_geocoder.rb", "lib/use_barkick.rb"]
   s.homepage    =
     'https://github.com/sourcegraph/ruby_sample_xref_app'
   s.license     = 'MIT'
-  s.require_path = 'app/'
+  s.require_path = 'lib/'
 end
