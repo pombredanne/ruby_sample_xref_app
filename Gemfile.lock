@@ -26,7 +26,6 @@ GEM
     atomic (1.1.14)
     barkick (0.0.2)
     builder (3.1.4)
-    chartkick (1.2.0)
     geocoder (1.1.8)
     groupdate (1.0.4)
       activerecord (>= 3.0.0)
@@ -65,7 +64,6 @@ PLATFORMS
 
 DEPENDENCIES
   barkick (~> 0.0.2)
-  chartkick (~> 1.2.0)
   geocoder (~> 1.1.8)
   groupdate (~> 1.0.4)
   redis (~> 3.0.5)
